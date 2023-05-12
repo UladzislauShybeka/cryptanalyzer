@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4421ead0-1bf7-4d6d-b414-0d0cca6190ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/cryptanalyzer/shybeka/constants/CryptoAlphabet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/cryptanalyzer/shybeka/constants/defaultFileInPut" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/cryptanalyzer/shybeka/constants/defaultFileOutPut" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/cryptanalyzer/shybeka/controller/BrutForceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/cryptanalyzer/shybeka/controller/DecodingByKeyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/cryptanalyzer/shybeka/controller/EncodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/cryptanalyzer/shybeka/controller/InPut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/cryptanalyzer/shybeka/controller/LaunchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/cryptanalyzer/shybeka/controller/OutPut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/cryptanalyzer/shybeka/controller/ResultForBrutForce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/cryptanalyzer/shybeka/controller/Results.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/cryptanalyzer/shybeka/exceptions/ApplicationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/cryptanalyzer/shybeka/function/BrutForce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/cryptanalyzer/shybeka/function/DecodingByKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/cryptanalyzer/shybeka/function/Encoding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/cryptanalyzer/shybeka/view/View.java" afterDir="false" />
-    </list>
+    <list default="true" id="4421ead0-1bf7-4d6d-b414-0d0cca6190ab" name="Changes" comment="first version" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +50,14 @@
       <option name="presentableId" value="Default" />
       <updated>1683795723265</updated>
     </task>
+    <task id="LOCAL-00001" summary="first version">
+      <created>1683879258133</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683879258133</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,5 +70,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first version" />
+    <option name="LAST_COMMIT_MESSAGE" value="first version" />
   </component>
 </project>
