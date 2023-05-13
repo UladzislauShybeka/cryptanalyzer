@@ -1,12 +1,12 @@
-package com.javarush.cryptanalyzer.shybeka.controller;
+package com.javarush.cryptanalyzer.shybeka.files;
 
+import javax.swing.*;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.File;
 
 public class InPut {
-
-    public static char[] toChars(String path) throws IOException {
+    public static char[] toText(String path) throws IOException {
 
         File file = new File(path);
         StringBuilder sb = new StringBuilder();
@@ -20,5 +20,5 @@ public class InPut {
 
         return sb.toString().toCharArray();
     }
+    }
 
-}

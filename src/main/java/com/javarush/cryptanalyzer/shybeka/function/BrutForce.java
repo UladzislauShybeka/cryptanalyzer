@@ -1,8 +1,5 @@
 package com.javarush.cryptanalyzer.shybeka.function;
 
-import com.javarush.cryptanalyzer.shybeka.constants.CryptoAlphabet;
-import com.javarush.cryptanalyzer.shybeka.controller.ResultForBrutForce;
-
 import java.util.ArrayList;
 import java.util.Collections;
 

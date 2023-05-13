@@ -1,10 +1,10 @@
-package com.javarush.cryptanalyzer.shybeka.controller;
+package com.javarush.cryptanalyzer.shybeka.function;
 
 import com.javarush.cryptanalyzer.shybeka.function.BrutForce;
 
 import java.util.ArrayList;
 
-public class ResultForBrutForce implements Results {
+public class ResultForBrutForce {
     public static String showResult(char[] alphabet, char[] array, ArrayList<Character> list, int point) {
         StringBuilder sb = new StringBuilder();
         for (int shift = 0; shift < alphabet.length; shift++) {

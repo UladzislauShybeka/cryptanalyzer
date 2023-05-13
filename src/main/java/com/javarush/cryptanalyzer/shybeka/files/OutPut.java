@@ -1,4 +1,6 @@
-package com.javarush.cryptanalyzer.shybeka.controller;
+package com.javarush.cryptanalyzer.shybeka.files;
+
+import com.javarush.cryptanalyzer.shybeka.constants.ApplicationConstants;
 
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
@@ -14,10 +16,10 @@ public class OutPut {
             try (FileWriter writer = new FileWriter(filePath)) {
                 writer.write(str);
             } catch (IOException e) {
-                e.printStackTrace();
+                JOptionPane.showMessageDialog(null, ApplicationConstants.FILE_NOT_FOUND);
             }
         } else {
-            JOptionPane.showMessageDialog(null, "Отменено");
+            JOptionPane.showMessageDialog(null, ApplicationConstants.CANCELED);
         }
     }
 }
